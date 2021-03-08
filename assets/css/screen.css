@@ -74,7 +74,23 @@ div {
     flex-direction: column;
   }
   h1 {
-    line-height: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
+    line-height: 48px; /* 24 / 18 = 1.333333333333333 */
+    padding-top: 14px;
+    padding-bottom: 13px;
+    text-align: center;
+    padding-left: 0;
+  }
+  li.email {
+    padding-bottom: 23px;
+  }
+  li.phone{
+    padding-bottom: 26px;
+  }
+  li.birthday {
+    padding-bottom: 25px;
+  }
+  li.submit {
+    padding-left: 30%;
   }
 }
 
