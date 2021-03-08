@@ -6,6 +6,8 @@ html {
   line-height: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
   padding: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
   background: #FDEFB2;
+  background:#606060;
+  color: #DCDDDC;
 }
 h1 {
   font-family: Spartan, Georgia, "Times New Roman", sans-serif;
@@ -13,9 +15,13 @@ h1 {
   padding-top: 0.3529411764705882em; /* 12 / 34 = 0.3529411764705882 */
   padding-bottom: 0.5294117647058824em; /* 18 / 34 = 0.5294117647058824*/
   line-height: 1.058823529411765em; /* 36 / 34 = 1.058823529411765 */
+  font-size: 34px; /* 34 / 18 = 1.888888888888889 */
+header {
+  background-color:#505050;
+  color: #DCDDDC;
 }
 form {
-  background:#fde992;
+  background: #767676;
 }
 legend{
   font-size: 1.166666666666667em; /* 21 / 18 = 1.166666666666667 */
@@ -25,6 +31,19 @@ li {
   padding-bottom: 1em; /* 18 / 18 = 1 */
   list-style-type: none;
   padding-left: 0.3888888888888889em; /* 7 / 18 = 0.3888888888888889 */
+button {
+  background:#080808;
+  color: #DCDDDC;
+  border-color: transparent;
+  overflow: visible;
+  font: inherit;
+}
+input {
+  background-color: #606060;
+  border-color: transparent;
+  overflow: visible;
+  color:inherit;
+  font: inherit;
 }
 
 @media screen and (min-width: 565px) {
