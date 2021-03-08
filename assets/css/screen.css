@@ -1,36 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
 @import url("http://basehold.it/25");
 html {
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
-  line-height: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
-  padding: 1.333333333333333em; /* 24 / 18 = 1.333333333333333 */
-  background: #FDEFB2;
   font-family: Zilla Slab, Georgia, "Times New Roman", sans-serif;
+  font-size: 18px; /* 18 / 16 = 1.125 */
+  line-height: 24px; /* 24 / 18 = 1.333333333333333 */
+  padding: 24px; /* 24 / 18 = 1.333333333333333 */
   background:#606060;
   color: #DCDDDC;
 }
 h1 {
-  font-family: Spartan, Georgia, "Times New Roman", sans-serif;
-  font-size: 1.888888888888889em; /* 34 / 18 = 1.888888888888889 */
-  padding-top: 0.3529411764705882em; /* 12 / 34 = 0.3529411764705882 */
-  padding-bottom: 0.5294117647058824em; /* 18 / 34 = 0.5294117647058824*/
-  line-height: 1.058823529411765em; /* 36 / 34 = 1.058823529411765 */
-  font-size: 34px; /* 34 / 18 = 1.888888888888889 */
+  font-family: Zilla Slab, Georgia, "Times New Roman", sans-serif;
+  font-size: 40.008px; /* 34 / 18 = 1.888888888888889 */
+  padding-top: 10px; /* 12 / 34 = 0.3529411764705882 */
+  padding-bottom: 10px; /* 18 / 34 = 0.5294117647058824*/
+  padding-left:8.637px;
+}
 header {
   background-color:#505050;
   color: #DCDDDC;
 }
 form {
+  padding-top: 12px;
+  padding-left:8.637px;
   background: #767676;
 }
 legend{
-  font-size: 1.166666666666667em; /* 21 / 18 = 1.166666666666667 */
-  padding-bottom: 0.6666666666666667em; /* 12 / 18 = 0.6666666666666667 */
+  font-size: 21px; /* 21 / 18 = 1.166666666666667 */
+  padding-bottom: 16px; /* 12 / 18 = 0.6666666666666667 */
 }
 li {
-  padding-bottom: 1em; /* 18 / 18 = 1 */
+  padding-bottom: 18px; /* 18 / 18 = 1 */
   list-style-type: none;
-  padding-left: 0.3888888888888889em; /* 7 / 18 = 0.3888888888888889 */
+  padding-left: 7px; /* 7 / 18 = 0.3888888888888889 */
+}
+li.email {
+  padding-bottom: 28px;
+}
+li.phone {
+  padding-bottom: 27px;
+}
+li.birthday {
+  padding-bottom: 52px;
+}
+li.submit {
+  padding-left: 60%;
+
+}
 button {
   background:#080808;
   color: #DCDDDC;
