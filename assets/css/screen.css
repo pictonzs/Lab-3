@@ -45,7 +45,9 @@ input {
   color:inherit;
   font: inherit;
 }
-
+div {
+  padding-bottom: 6px;
+}
 @media screen and (min-width: 565px) {
   html {
     margin-left: 10%;
