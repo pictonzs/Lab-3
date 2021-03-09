@@ -67,7 +67,6 @@ div {
     margin-left: 10%;
     margin-right: 10%;
   }
-
   body {
     display: flex;
     flex-direction: column;
@@ -92,11 +91,9 @@ div {
     padding-left: 30%;
   }
 }
-
 @media screen and (min-width:836px) {
   html {
     margin-left: 30%;
     margin-right: 30%;
   }
-
 }
